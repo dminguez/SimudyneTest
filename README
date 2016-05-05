@@ -1,0 +1,11 @@
+The project is set up under Intellije IDEA 2016.1.1
+
+To run the project, just run the main class. The attributes in the main class define the data source file,
+the brand factor and the ammount of years to simulate.
+
+The output of the program will be just total numbers in the console and all the policies after the simulation in an
+external file, as a CSV so it can be easily visualized with any other software.
+
+Please, note that the xslx file should be clear of any other text than the values - for instance, the equations.
+
+The first row is still the one defining the columns' names.

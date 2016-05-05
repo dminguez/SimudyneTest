@@ -96,4 +96,20 @@ public class Policy {
         this.inertiaForSwitch = inertiaForSwitch;
     }
 
+    public String toString() {
+        StringBuilder output = new StringBuilder();
+
+        output.append(getBreed()).append(",");
+        output.append(getId()).append(",");
+        output.append(getAge()).append(",");
+        output.append(getSocialGrade()).append(",");
+        output.append(getPaymentAtPurchase()).append(",");
+        output.append(getBrand()).append(",");
+        output.append(getPrice()).append(",");
+        output.append(getPromotions()).append(",");
+        output.append(getAutoRenew() ? "1" : "0").append(",");
+        output.append(getInertiaForSwitch());
+
+        return output.toString();
+    }
 }
